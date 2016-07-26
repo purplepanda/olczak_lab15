@@ -1,0 +1,47 @@
+* {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 16px;
+}
+header, .game-area {
+    text-align: center;
+}
+.game-area {
+    border: .5px solid #999999;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: none;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #999999;
+    padding: 15px;
+}
+a:hover {
+    color: red;
+}
+p {
+    font-size: 1em;
+}
+form {
+  margin: auto;
+}
+input {
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  padding: 5px;
+}

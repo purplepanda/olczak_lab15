@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+      <link href="styles/main.css" rel="stylesheet" type="text/css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+      <script src="scripts/app.js"></script>
+      <script src="scripts/inputCtrl.js"></script>
+      <script src="scripts/outputCtrl.js"></script>
+      <script src="scripts/wordFactory.js"></script>
+      <title>Let's Play Mad Libs!</title>
+  </head>
+
+  <body ng-app="madLibs">
+    <header>
+      <h1>Mad Libs!</h1>
+      <h3>Choose a Mad Libs story below:</h3>
+    </header>
+    <div class="game-area">
+      <a href="#/">Home</a>
+      <a href="#/ml1Input">Love Story</a>
+      <ng-view></ng-view>
+    </div>
+
+  </body>
+
+</html>

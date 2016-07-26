@@ -1,0 +1,16 @@
+<h2>Fill in the Words Below</h2>
+
+<form class="basic-form">
+    <input type="text" ng-model="madLib.person1" placeholder="person in room" />
+    <input type="text" ng-model="madLib.adjective1" placeholder="adjective" />
+    <input type="text" ng-model="madLib.verb1" placeholder="verb" />
+    <input type="text" ng-model="madLib.bodypart1" placeholder="part of body" />
+    <input type="text" ng-model="madLib.verb2" placeholder="verb" />
+    <input type="text" ng-model="madLib.noun1" placeholder="noun" />
+    <input type="text" ng-model="madLib.adverb1" placeholder="adverb" />
+    <input type="text" ng-model="madLib.verb3" placeholder="verb" />
+    <input type="text" ng-model="madLib.pluralnoun1" placeholder="plural noun" />
+    <input type="text" ng-model="madLib.person2" placeholder="another person in room" />
+</form>
+<div ng-click="submitWords(madLib)">Read the Story!</div>
+<ng-view></ng-view>
